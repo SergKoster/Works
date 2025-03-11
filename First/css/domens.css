@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EAD7D1;
+}
+
+.container {
+    margin: 0 30px;
+}
+
+p {
+    margin: 1px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    padding: 10px 0;
+    height: 100%;
+    margin: 0;
+    background-color: #1F1A38;
+    color: white;
+}
+
+.header__inner {
+    display: flex;
+}
+
+.header__list {
+    margin: 0 30px;
+    display: flex;
+    gap: 0 30px;
+}
+
+.header__list-text {
+    color: white;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main {
+    padding: 100px;
+}
+
+.main__text {
+    font-weight: 550;
+    font-size: 40px;
+}
+
+.main__item {
+    margin: 50px 300px;
+    background-color: #7B506F;
+    border: solid #7B506F 40px;
+    border-radius: 15px;
+}
+
+.main__item2 {
+    margin: 50px 300px;
+    background-color: #1F1A38;
+    border: solid #1F1A38 40px;
+    border-radius: 15px;
+}
+
+.main__item-text {
+    color: white;
+    font-weight: 550px;
+    font-size: 50px;
+}
+
+.main__item-price {
+    color :white;
+    font-weight: 400px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.main__item-button {
+    color: white;
+    border: solid #DD99BB 3px;
+    border-radius: 10px;
+    background-color: #DD99BB;
+    padding: 3px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    transition: .4s;
+}
+
+.main__item-button:hover {
+    background-color: #7B506F;
+}
+
+.main__item-button2 {
+    color: white;
+    border: solid #7B506F 3px;
+    border-radius: 10px;
+    background-color: #7B506F;
+    padding: 3px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    transition: .4s;
+}
+
+.main__item-button2:hover {
+    background-color: #1F1A38;
+}
+
+.footer {
+    background-color: #1F1A38;
+    color: white;
+}
+
+.footer__list-name {
+    padding: 20px;
+    display: block;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.footer__list-text {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer__list {
+    padding-bottom: 30px;
+}
